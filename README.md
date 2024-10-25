@@ -14,3 +14,7 @@ https://uniroma2-my.sharepoint.com/:f:/g/personal/damiano_necci_students_uniroma
 
 # Lezioni , esercizi , esami di Logica e Reti Logiche 2023-2024
 https://www.mat.uniroma2.it/~pasquale/dida/aa2324/lrl/
+
+
+# Repository Tutoraggio Programmazione Calcolatori
+https://github.com/davidetoniatti/esercitazioni-programmazione-2425/

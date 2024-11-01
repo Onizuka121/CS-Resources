@@ -18,3 +18,8 @@ https://www.mat.uniroma2.it/~pasquale/dida/aa2324/lrl/
 
 # Repository Tutoraggio Programmazione Calcolatori
 https://github.com/davidetoniatti/esercitazioni-programmazione-2425/
+
+# Allenamento per programmazione con LEETCODE
+https://leetcode.com/
+
+

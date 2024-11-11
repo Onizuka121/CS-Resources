@@ -15,7 +15,7 @@ def binary_search_rx(lista,k):
     lx = 0
     rx = len(lista) - 1 
 
-    while lx < rx:
+    while lx <= rx:
         mid = (lx+rx) // 2
         if k > lista[mid]:
             lx = mid + 1 
@@ -26,9 +26,6 @@ def binary_search_rx(lista,k):
                 lx = mid + 1
             else:
                 return mid
-
-    if k == lista[lx]:
-        return lx
 
     return -1
 

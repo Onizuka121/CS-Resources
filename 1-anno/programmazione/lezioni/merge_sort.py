@@ -6,15 +6,15 @@ def merge_sort(vector,lx,rx):
         mid = (lx+rx) // 2
         merge_sort(vector,lx,mid)
         merge_sort(vector,mid+1,rx)
-        merge(vector,lx,mid,rx)
+        merge(vector,lx,mid,rx,key=helper)
 
-def merge(vector,lx,mid,rx):
+def merge(vector,lx,mid,rx,key=None):
     i = lx
-    j = mid + 1 
+    j = mid + 1
     end = rx
     temp = []
     while i <= mid and j <= end:
-        if vector[i] < vector[j]:
+        if key(vector[i]) < key(vector[j]):
             temp.append(vector[i])
             i += 1
         else:
@@ -41,8 +41,16 @@ def merge(vector,lx,mid,rx):
 
 
 
-test = [3,4,5,1,1,2]
-merge_sort(test,0,5)
+def helper(item):
+    if type(item) in (int,float):
+        return (0,item)
+    elif type(item) == str:
+        return (1,item)
+
+
+
+test = [3,4,'programmazione',8,99,0,-1,'ciao']
+merge_sort(test,0,len(test)-1)
 print(test)
 
 

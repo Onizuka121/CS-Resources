@@ -5,7 +5,7 @@
  Scrivere una funzione in C che, dato un'array a di float di lunghezza n,
  crea un'array che è l'inverso di a, ossia, 
  il nuovo array memorizza gli elementi di a al contrario.
- 0 1 2 3 4 5 6 7
+
 
  */
 

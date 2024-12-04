@@ -9,6 +9,7 @@ typedef struct {
 
 dynamic_array init(int initial_capacity);
 void append(dynamic_array *array, int element);
+void pop_element(dynamic_array* array);
 
 int main(){
   
@@ -23,6 +24,13 @@ int main(){
   for(int i = 0; i < array.size; i++){
     printf("elemento in %d -> %d\n",i,array.data[i]);
   }
+  pop_element(&array);
+  printf("dopo pop element -> ");
+  for(int i = 0; i < array.size; i++){
+     printf("elemento in %d -> %d\n",i,array.data[i]);
+  }
+
+  free(array.data);
 
   return 0;
 
@@ -49,6 +57,10 @@ void append(dynamic_array *array, int element){
     }
     array->data[array->size] = element;
     array->size++;
+}
+
+void pop_element(dynamic_array* array){
+  array->size--;
 }
 
 

@@ -4,6 +4,7 @@
 #define EURO_TO_LIRE(euro) ((euro)*COSTANTE_LIRE)
 #define LIRE_TO_EURO(lire) ((lire)/COSTANTE_LIRE)
 
+
 int main(){
   TRACE;
   float lire_out = EURO_TO_LIRE(20);

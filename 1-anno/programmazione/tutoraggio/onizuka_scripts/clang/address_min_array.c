@@ -16,7 +16,6 @@ int* find_address_of_min(int* array,int size){
   return address_of_min;
 }
 
-
 int main(){
   int array[] = {21,55,5,3,53};
   printf("INDIRIZZO DEL PIU PICCOLO ELEMENTO : %p\n",find_address_of_min(array,sizeof(array)/sizeof(int)));

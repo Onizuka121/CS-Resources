@@ -92,6 +92,7 @@ list pop(list lista){
         exit(1);
       }
     }
+
     if(lista.elements[lista.size].type != 's'){
       if(lista.elements[lista.size].data_pointer != NULL){
         free(lista.elements[lista.size].data_pointer);

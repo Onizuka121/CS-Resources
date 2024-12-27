@@ -63,7 +63,6 @@ int isRobotBounded(char* instructions){
 
  printf("degree -> %d\n",degree);
 
-  if(degree == 90){
     i = 0;
     while(new[i] != '\0' && new[i] != 'G'){
        if(new[i] == 'L'){
@@ -79,10 +78,9 @@ int isRobotBounded(char* instructions){
        }
        i++;
     }
-  }
 
   printf("degree -> %d\n",degree);
-  if(degree == 180 || degree == 0 || degree == 360 || (degree == 270 && x == 0) || (degree == 270 && y == 0)){
+  if(degree == 180 || degree == 0 || degree == 360 || (degree == 270 && x == 0) || (degree == 270 && y == 0) || (degree == 90 && x == 0 && y == 0)){
     printf("CIRCLE");
     return 1;
   }
@@ -90,8 +88,8 @@ int isRobotBounded(char* instructions){
   return 0;
 }
 
-int main(){
-  char* intructions = "LGR";
+int main(int argc, char* argv[]){
+  char* intructions = argv[1];
   isRobotBounded(intructions);
   return 0;
 }

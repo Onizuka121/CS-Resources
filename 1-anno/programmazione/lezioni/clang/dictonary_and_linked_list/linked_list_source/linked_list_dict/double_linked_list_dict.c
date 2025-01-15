@@ -10,7 +10,7 @@ typedef struct item{
 typedef struct node{
   item data;//dato contenente nel nodo (che sarebbe un item -> (chiave, valore))
   struct node* prec;//puntatore al nodo precedente
-  struct node* next;//puntatore all nodo successivo
+  struct node* next;//puntatore all nodo successivo1
 } node;
 
 typedef node* linked_list;
@@ -23,14 +23,17 @@ linked_list init(){
 }
 
 linked_list insert_top(linked_list lk, char* key, int value){
-  
+  //verifichiamo se k esiste gia nel dizionario
   node* node_with_same_key = search_element(lk,key);
-
+  
+  //se il nodo con la stessa chiave esiste 
+  //aggiorno il valore associato a quella chiave
   if(node_with_same_key != NULL){
     node_with_same_key->data.value = value;
     return lk;
   }
 
+  //altrimenti devo aggiungere un nuovo nodo 
   node* new_node = (node*) malloc(sizeof(node));
   //dopo il nuovo nodo ci sarà il nodo corrente che è in testa ( che è puntato da lk )
   new_node->next = lk;
@@ -126,9 +129,6 @@ node* search_element(linked_list lk,char* key){
   while(current != NULL && strcmp(current->data.key,key) != 0){
     current = current->next;
   }
-
-  if(current == NULL)
-      return NULL;
 
   return current;
 }

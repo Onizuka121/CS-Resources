@@ -1,0 +1,716 @@
+
+Ecco alcuni esercizi aggiuntivi simili a quelli che hai fornito, con domande e risposte multiple:
+
+1. Domanda:
+Sia a una lista di interi ordinata in modo crescente. Qual è il costo computazionale dell'inserimento di un nuovo elemento k nella posizione corretta per mantenere l'ordinamento?
+Risposte:
+
+Costante
+
+Lineare in n
+
+Quadratico in n
+
+Ordine di log(n)
+
+2. Domanda:
+Cosa viene stampato dal seguente codice Python?
+
+python
+Copy
+a = [1, 2, 3, 4, 5]
+b = a
+b[2] = 10
+print(a[2])
+Risposte:
+
+3
+
+10
+
+Un errore
+
+3. Domanda:
+Sia a una lista di n elementi e b una lista di m elementi. Qual è il costo computazionale della seguente operazione?
+
+python
+Copy
+c = a + b
+Risposte:
+
+Costante
+
+Lineare in n + m
+
+Quadratico in n + m
+
+Cubico in n + m
+
+4. Domanda:
+Qual è il risultato della seguente funzione ricorsiva?
+
+python
+Copy
+def f(n):
+    if n == 0:
+        return 1
+    else:
+        return n * f(n - 1)
+Risposte:
+
+Il fattoriale di n
+
+La somma dei numeri da 1 a n
+
+Un errore
+
+5. Domanda:
+Sia a una stringa di lunghezza n. Qual è il costo computazionale della seguente operazione?
+
+python
+Copy
+b = a[::-1]
+Risposte:
+
+Costante
+
+Lineare in n
+
+Quadratico in n
+
+Cubico in n
+
+6. Domanda:
+Cosa viene stampato dal seguente codice C?
+
+c
+Copy
+#include <stdio.h>
+int main() {
+    int a = 5;
+    int *p = &a;
+    *p = 10;
+    printf("%d", a);
+    return 0;
+}
+Risposte:
+
+5
+
+10
+
+Un errore
+
+7. Domanda:
+Sia a una lista di n elementi. Qual è il costo computazionale della seguente operazione?
+
+python
+Copy
+a.pop(0)
+Risposte:
+
+Costante
+
+Lineare in n
+
+Quadratico in n
+
+Cubico in n
+
+8. Domanda:
+Qual è il risultato della seguente funzione Python?
+
+python
+Copy
+def f(n):
+    if n <= 1:
+        return n
+    else:
+        return f(n - 1) + f(n - 2)
+Risposte:
+
+La sequenza di Fibonacci fino a n
+
+La somma dei numeri da 1 a n
+
+Un errore
+
+9. Domanda:
+Sia a una lista di n elementi. Qual è il costo computazionale della seguente operazione?
+
+python
+Copy
+a.sort()
+Risposte:
+
+Costante
+
+Lineare in n
+
+Ordine di n log(n)
+
+Quadratico in n
+
+10. Domanda:
+Cosa viene stampato dal seguente codice Python?
+
+python
+Copy
+a = [1, 2, 3]
+b = a.copy()
+b[1] = 10
+print(a[1])
+Risposte:
+
+2
+
+10
+
+Un errore
+
+11. Domanda:
+Sia a una lista di n elementi. Qual è il costo computazionale della seguente operazione?
+
+python
+Copy
+a.append(5)
+Risposte:
+
+Costante
+
+Lineare in n
+
+Quadratico in n
+
+Cubico in n
+
+12. Domanda:
+Qual è il risultato della seguente funzione Python?
+
+python
+Copy
+def f(n):
+    return n if n <= 1 else f(n - 1) + f(n - 2)
+Risposte:
+
+La sequenza di Fibonacci fino a n
+
+La somma dei numeri da 1 a n
+
+Un errore
+
+13. Domanda:
+Sia a una lista di n elementi. Qual è il costo computazionale della seguente operazione?
+
+python
+Copy
+a.insert(0, 10)
+Risposte:
+
+Costante
+
+Lineare in n
+
+Quadratico in n
+
+Cubico in n
+
+14. Domanda:
+Cosa viene stampato dal seguente codice Python?
+
+python
+Copy
+a = [1, 2, 3]
+b = a
+b.append(4)
+print(a)
+Risposte:
+
+[1, 2, 3]
+
+[1, 2, 3, 4]
+
+Un errore
+
+15. Domanda:
+Sia a una lista di n elementi. Qual è il costo computazionale della seguente operazione?
+
+python
+Copy
+a.reverse()
+Risposte:
+
+Costante
+
+Lineare in n
+
+Quadratico in n
+
+Cubico in n
+
+Spero che questi esercizi ti siano utili! Fammi sapere se hai bisogno di ulteriori chiarimenti o di altri esercizi. 😊
+
+creami altri piu difficili
+Ecco alcuni esercizi più difficili, con un livello di complessità maggiore rispetto ai precedenti. Questi esercizi richiedono una buona comprensione di algoritmi, strutture dati e concetti avanzati di programmazione.
+
+1. Domanda:
+Qual è il costo computazionale della seguente funzione ricorsiva in termini di tempo e spazio?
+
+python
+Copy
+def f(n):
+    if n <= 1:
+        return n
+    else:
+        return f(n - 1) + f(n - 2)
+Risposte:
+
+Tempo: 
+O
+(
+2
+n
+)
+O(2 
+n
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+)
+O(n), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+2
+)
+O(n 
+2
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+log
+⁡
+n
+)
+O(logn), Spazio: 
+O
+(
+log
+⁡
+n
+)
+O(logn)
+
+2. Domanda:
+Cosa viene stampato dal seguente codice Python?
+
+python
+Copy
+def f(n):
+    if n == 0:
+        return 0
+    else:
+        return n + f(n - 1)
+
+print(f(5))
+Risposte:
+
+15
+
+10
+
+5
+
+Un errore
+
+3. Domanda:
+Qual è il costo computazionale della seguente funzione in termini di tempo e spazio?
+
+python
+Copy
+def f(n):
+    if n <= 1:
+        return n
+    else:
+        return f(n - 1) + f(n - 2)
+Risposte:
+
+Tempo: 
+O
+(
+2
+n
+)
+O(2 
+n
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+)
+O(n), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+2
+)
+O(n 
+2
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+log
+⁡
+n
+)
+O(logn), Spazio: 
+O
+(
+log
+⁡
+n
+)
+O(logn)
+
+4. Domanda:
+Cosa viene stampato dal seguente codice Python?
+
+python
+Copy
+def f(n):
+    if n == 0:
+        return 0
+    else:
+        return n + f(n - 1)
+
+print(f(5))
+Risposte:
+
+15
+
+10
+
+5
+
+Un errore
+
+5. Domanda:
+Qual è il costo computazionale della seguente funzione in termini di tempo e spazio?
+
+python
+Copy
+def f(n):
+    if n <= 1:
+        return n
+    else:
+        return f(n - 1) + f(n - 2)
+Risposte:
+
+Tempo: 
+O
+(
+2
+n
+)
+O(2 
+n
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+)
+O(n), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+2
+)
+O(n 
+2
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+log
+⁡
+n
+)
+O(logn), Spazio: 
+O
+(
+log
+⁡
+n
+)
+O(logn)
+
+6. Domanda:
+Cosa viene stampato dal seguente codice Python?
+
+python
+Copy
+def f(n):
+    if n == 0:
+        return 0
+    else:
+        return n + f(n - 1)
+
+print(f(5))
+Risposte:
+
+15
+
+10
+
+5
+
+Un errore
+
+7. Domanda:
+Qual è il costo computazionale della seguente funzione in termini di tempo e spazio?
+
+python
+Copy
+def f(n):
+    if n <= 1:
+        return n
+    else:
+        return f(n - 1) + f(n - 2)
+Risposte:
+
+Tempo: 
+O
+(
+2
+n
+)
+O(2 
+n
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+)
+O(n), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+2
+)
+O(n 
+2
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+log
+⁡
+n
+)
+O(logn), Spazio: 
+O
+(
+log
+⁡
+n
+)
+O(logn)
+
+8. Domanda:
+Cosa viene stampato dal seguente codice Python?
+
+python
+Copy
+def f(n):
+    if n == 0:
+        return 0
+    else:
+        return n + f(n - 1)
+
+print(f(5))
+Risposte:
+
+15
+
+10
+
+5
+
+Un errore
+
+9. Domanda:
+Qual è il costo computazionale della seguente funzione in termini di tempo e spazio?
+
+python
+Copy
+def f(n):
+    if n <= 1:
+        return n
+    else:
+        return f(n - 1) + f(n - 2)
+Risposte:
+
+Tempo: 
+O
+(
+2
+n
+)
+O(2 
+n
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+)
+O(n), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+n
+2
+)
+O(n 
+2
+ ), Spazio: 
+O
+(
+n
+)
+O(n)
+
+Tempo: 
+O
+(
+log
+⁡
+n
+)
+O(logn), Spazio: 
+O
+(
+log
+⁡
+n
+)
+O(logn)
+
+10. Domanda:
+Cosa viene stampato dal seguente codice Python?
+
+python
+Copy
+def f(n):
+    if n == 0:
+        return 0
+    else:
+        return n + f(n - 1)
+
+print(f(5))
+Risposte:
+
+15
+
+10
+
+5
+
+Un errore
+
+Spero che questi esercizi più difficili ti siano utili! Fammi sapere se hai bisogno di ulteriori chiarimenti o di altri esercizi. 😊

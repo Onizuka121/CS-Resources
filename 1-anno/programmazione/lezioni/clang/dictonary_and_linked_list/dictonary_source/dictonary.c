@@ -23,8 +23,9 @@ int hash(dict dictionary, char* key){
 
 dict init_dict(int size_m){
   dict new_dict = {NULL,size_m};
+  //alloco memoria per l'array delle chiavi
   new_dict.lk_array = (linked_list*) malloc(size_m*sizeof(linked_list));
-
+  
   for(int i = 0; i < size_m; i++){
     new_dict.lk_array[i] = NULL;
   }

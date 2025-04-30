@@ -1,0 +1,39 @@
+#! /bin/bash
+
+type="an1-"
+
+if [ $1 != '--ex' ] && [ $1 != '--sol' ] && [ $1 != '--ls' ] || [ $# -ne 1 ];then
+  echo "[>] use : --ls (all lessons), --ex (exercises) , --sol (solutions exercises)"
+  exit 1
+elif [ $1 = '--ls' ];then
+  type="${type}lezione"
+elif [ $1 = '--ex' ] || [ $1 = '--sol' ];then
+  type="${type}foglio"
+fi
+
+tmp=$type
+
+echo "[*] getting $type ..."
+
+for i in {1..40}
+do
+
+  if [ $i -lt 10 ];then
+    i="0$i"
+  fi
+  if [ $1 = '--sol' ];then
+    type="${tmp}${i}sol.pdf"
+  else
+    type="${tmp}${i}.pdf"
+  fi
+  wget https://www.mat.uniroma2.it/~tauraso/aa2425/$type > /dev/null 2>&1 
+  if [ $? -eq 0 ]; then 
+    echo "[*] $type in"
+  fi
+done 
+
+
+
+
+
+

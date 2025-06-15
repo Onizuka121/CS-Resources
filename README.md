@@ -10,9 +10,6 @@ https://t.me/+3TC09HYhNT41YTQ0
 # Drive Google Informatica 
 https://drive.google.com/drive/folders/0BwgcUWK8zE2tdU5xWGVlcjBTRzg?resourcekey=0-uHWCbrNVVyErdd2b0QqMNg
 
-# Lezioni, esercizi, esami e libri di Analisi 1
-https://uniroma2-my.sharepoint.com/:f:/g/personal/damiano_necci_students_uniroma2_eu/EiBWqRAOFhNIr4_S7gUu7IkB71mz8yN4eV5YDaIZnJGKuw?e=TJRQQj
-
 # Lezioni , esercizi , esami di Logica e Reti Logiche 2023-2024
 https://www.mat.uniroma2.it/~pasquale/dida/aa2324/lrl/
 

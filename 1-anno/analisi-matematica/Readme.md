@@ -1,3 +1,4 @@
-# Roba di Analisi Matematica
+# Risorse di Analisi Matematica
 
-Sei sei su linux e vuoi tutti i file in locale usa il file (get-appunti)[./get-appunti]
+#### Appunti di analisi matematica professor Tauraso
+[Materiale sul Drive](https://drive.google.com/drive/folders/1AT3eRD8w8MrXsdFuHduqeG277uzM9TSr?usp=drive_link)

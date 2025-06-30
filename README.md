@@ -1,4 +1,4 @@
-# 🎓 Repository Studenti di Informatica
+# 🎓 Repository CS Resources
 
 Repository  creata per il **Corso di Laurea in Informatica**! 🚀  
 Qui troverai tutto quello che ti serve per affrontare le materie del corso: appunti, esercizi, progetti e tanto altro. 

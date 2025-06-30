@@ -11,4 +11,9 @@ Se avete **Obsidian** potete leggere perfettamente i file MD (Markdown):
 - Dimostrazioni.md : un file che contiene dimostrazioni dei teoremi da sapere ( manca continuazione di Taylor e Integrali-Serie )
 - e altro...
 
+Esercizi vari trovate in **giro nel Web** (sperate che non hanno levato la roba) : 
+- [Unipd-colombo](https://www.math.unipd.it/~colombo/didattica/analisi1/prove_scritte/)
+- [Isola](https://www.mat.uniroma2.it/~isola/teaching/AnalisiUno/materiali.html) (in fondo la pagina trovare altri collegamenti)
+- il resto vedi sul gruppo Telegram , su shared links
+
 

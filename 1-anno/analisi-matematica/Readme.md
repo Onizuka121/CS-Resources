@@ -12,6 +12,7 @@ Se avete **Obsidian** potete leggere perfettamente i file MD (Markdown):
 - e altro...
 
 Esercizi vari trovate in **giro nel Web** (sperate che non hanno levato la roba) : 
+- [Sito con praticamente tutto ( esercizi , teoria , etc)](https://quisirisolve.com/)
 - [Unipd-colombo](https://www.math.unipd.it/~colombo/didattica/analisi1/prove_scritte/)
 - [Isola](https://www.mat.uniroma2.it/~isola/teaching/AnalisiUno/materiali.html) (in fondo la pagina trovare altri collegamenti)
 - il resto vedi sul gruppo Telegram , su shared links

@@ -2,7 +2,8 @@
 
 #### Appunti di analisi matematica professor Tauraso
 [Materiale sul Drive](https://drive.google.com/drive/folders/1AT3eRD8w8MrXsdFuHduqeG277uzM9TSr?usp=drive_link)
-Cosa troverai: 
+
+Contenuto : 
 - appunti, esercizi (con soluzioni), esami (con soluzioni) del professore Tauraso
 - appunti da parte di Onizuka@121 scritti a mano
 

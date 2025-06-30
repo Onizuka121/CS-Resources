@@ -8,7 +8,7 @@ Contenuto nel drive:
 
 Se avete **Obsidian** potete leggere perfettamente i file MD (Markdown): 
 - Formule utili.md : un file contente formule utili , tipo di trigonometria , derivate elementari , metodologie per calcolare integrali , svilluppi di Taylor , criteri fondamentali di convergenza etc...
-- Dimostrazioni.md : un file che contiene dimostrazioni dei teoremi da sapere ( manca continuazione di Taylor e Integrali-Serie )
+- Dimostrazioni.md (trovate lo stesso file qui sulla cartella analisi-matematica) in pdf : un file che contiene dimostrazioni dei teoremi da sapere ( **manca continuazione di Taylor e Integrali-Serie** se volete aggiungere voi top , oppure lo trovare nel drive negli appunti scritti a mano )
 - e altro...
 
 Esercizi vari trovate in **giro nel Web** (sperate che non hanno levato la roba) : 

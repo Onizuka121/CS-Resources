@@ -2,8 +2,6 @@
 
 Qui troverai : appunti, esercizi, progetti e tanto altro. 
 
-> Questo è uno spazio aperto dove tutti possiamo contribuire e aiutarci a vicenda.
-
 > Ogni corso avrà un Readme.md che contiene informazioni/collegamenti su dove trovare materiale e altro
 
 ## Risorse varie 

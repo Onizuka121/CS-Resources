@@ -3,6 +3,7 @@
 Qui troverai : appunti, esercizi, progetti e tanto altro. 
 
 > Ogni corso avrà un Readme.md che contiene informazioni/collegamenti su dove trovare materiale e altro
+> Per libri di testo chiedi/vedi sul gruppo Telegram
 
 ## Risorse varie 
 - [drive informatica anni precedenti](https://drive.google.com/drive/folders/0BwgcUWK8zE2tdU5xWGVlcjBTRzg?resourcekey=0-uHWCbrNVVyErdd2b0QqMNg)

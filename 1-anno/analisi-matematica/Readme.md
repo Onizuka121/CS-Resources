@@ -18,7 +18,7 @@ Esercizi vari trovate in **giro nel Web** (sperate che non hanno levato la roba)
 - il resto vedi sul gruppo Telegram , su shared links
 
 
-Per i libri di analisi matematica vedi/chiedi sul gruppo Telegram
+> Per i libri di analisi matematica vedi/chiedi sul gruppo Telegram
 
 
 

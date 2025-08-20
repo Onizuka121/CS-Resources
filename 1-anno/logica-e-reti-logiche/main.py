@@ -3,11 +3,10 @@ from sympy.logic.boolalg import truth_table
 from texttable import Texttable
 from collections import deque
 import plotly.graph_objects as go
+import sys 
 
-# fix k map variables 
 
-exp_str = input("expression : ");
-
+       
 
 def get_gray_code(n):
     code = [[0],[1]]
@@ -55,15 +54,11 @@ def get_k_map(vars,table):
     a = get_gray_code(c)
     b = get_gray_code(len(vars)-c)
     table = get_modified_tb(table)
-    print("a: ",a)
-    print("b: " ,b)
-    print(table)
     map = []
     for ia in range(len(a)):
         map.append([])
         for ib in range(len(b)):
             index = get_binary_conv(a[ia],b[ib])
-            print("info table : ",table[index],table[index][0], table[index][1])
             map[ia].append(1 if table[index][1] else 0)
     print_map(a,b,map,vars,c)
 
@@ -83,15 +78,17 @@ def print_map(a,b,map,vars,c):
     zmin=0
 ))
 
+    print("map len:",len(map),len(map[0]))
+
     fig.update_layout(
-    title='Mappa di Karnaugh 2×4',
+    title=f"Mappa di Karnaugh {len(map)}×{len(map[0])}",
     xaxis_title=f"Variabili {vars[c:]}",
-    yaxis_title='Variabile A'
+    yaxis_title=f"Variabile {vars[:c]}"
 )
 
     fig.show()
 
-def get_tb_from_fromula(formula):
+def get_tb_from_fromula(formula,kmap=False):
     try:
         f = sympy.sympify(formula)
     except:
@@ -101,8 +98,10 @@ def get_tb_from_fromula(formula):
     table = list(truth_table(f, vars))
 
     t = Texttable()
-
-    get_k_map(vars,table)
+    
+    if kmap:
+        get_k_map(vars,table)
+        return 
 
     vars.append("F")
 
@@ -114,8 +113,18 @@ def get_tb_from_fromula(formula):
     return t.draw()
 
 
+def get_parametrs(argv):
+    print(argv.slice())
 
-print(get_tb_from_fromula(exp_str))
+
+if __name__ == "__main__":
+    print(f"Arguments count: {len(sys.argv)}")
+    if len(sys.argv) > 2:
+        get_parametrs(sys.argv[1])
+        if sys.argv[1] == "-k":
+            get_tb_from_fromula(sys.argv[2],True)
+        
+ 
 
 
     

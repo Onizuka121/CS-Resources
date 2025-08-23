@@ -6,10 +6,7 @@ Contenuto nel drive:
 - appunti, esercizi (con soluzioni), esami (con soluzioni) del professore Tauraso
 - appunti da parte di Onizuka@121 scritti a mano su tablet
 
-Se avete **Obsidian** potete leggere perfettamente i file MD (Markdown): 
-- Formule utili.md : un file contente formule utili , tipo di trigonometria , derivate elementari , metodologie per calcolare integrali , svilluppi di Taylor , criteri fondamentali di convergenza etc...
-- Dimostrazioni.md (trovate lo stesso file qui sulla cartella analisi-matematica) in pdf : un file che contiene dimostrazioni dei teoremi da sapere ( **manca continuazione di Taylor e Integrali-Serie** se volete aggiungere voi top , oppure lo trovare nel drive negli appunti scritti a mano )
-- e altro...
+[Appunti](https://onizuka121.github.io/onizuka/CS-UNI/AM/)
 
 Esercizi vari trovate in **giro nel Web** (sperate che non hanno levato la roba) : 
 - [Sito con praticamente tutto ( esercizi , teoria , etc)](https://quisirisolve.com/)

@@ -6,7 +6,7 @@ Contenuto nel drive:
 - appunti, esercizi (con soluzioni), esami (con soluzioni) del professore Tauraso
 - appunti da parte di Onizuka@121 scritti a mano su tablet
 
-[Appunti](https://onizuka121.github.io/onizuka/CS-UNI/AM/)
+[Dimostrazioni da sapere e formule utili](https://onizuka-mauve.vercel.app/CS-UNI/Analisi-Matematica)
 
 Esercizi vari trovate in **giro nel Web** (sperate che non hanno levato la roba) : 
 - [Sito con praticamente tutto ( esercizi , teoria , etc)](https://quisirisolve.com/)

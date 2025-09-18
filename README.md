@@ -12,4 +12,4 @@ Qui troverai : appunti, esercizi, progetti e tanto altro.
 - [Repository Tutoraggio Programmazione Calcolatori 24/25](https://github.com/davidetoniatti/esercitazioni-programmazione-2425/)
 
 
-> se vuoi contribuire scrivimi su Telegram : @Onizuka12_4
+> se entrare nel gruppo Telegram : [Link di invito](https://t.me/csgroup_join/1)

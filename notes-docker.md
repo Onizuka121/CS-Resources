@@ -128,8 +128,34 @@ RUN comando     # comando da eseguire
 ENV VAR=valore 
 EXPOSE 80:80    # quale porta interna deve aprire 
 CMD ["comando" , "arg"]     # comando che esegue all'avvio il container 
-
 ```
+
+### Best practices 
+
+- usare images leggere ( apline , slim )
+- combinare i comandi RUN ( per i layer )
+
+
+### Security 
+Di default docker i containers girano come root , soluzione usare `userns-remap` ( user namespace remapping ) fa in modo che l'utente root dentro il container corrisponde a un utente non privilegiato sull'host. 
+
+root ( uid 0 ) nel container -> uid 10000 sull'host 
+
+Quindi anche se l'attaccante non ha privilegi reali sul sistema. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -8,7 +8,7 @@ Qui troverai : appunti, esercizi, progetti e tanto altro.
 
 ## Risorse varie 
 - [drive informatica anni precedenti](https://drive.google.com/drive/folders/0BwgcUWK8zE2tdU5xWGVlcjBTRzg?resourcekey=0-uHWCbrNVVyErdd2b0QqMNg)
-- [Vari appunti da parte di @Onizuka121 di alcuni corsi disponibili nel web](https://onizuka-mauve.vercel.app/CS-UNI/)
+- [Appunti da parte di @Onizuka121 di alcuni corsi disponibili nel web](https://onizuka-mauve.vercel.app/CS-UNI/)
 - [Repository Tutoraggio Programmazione Calcolatori 24/25](https://github.com/davidetoniatti/esercitazioni-programmazione-2425/)
 
 

@@ -1,3 +1,3 @@
 # Risorse di Architettura 
 
-> in progress ...
+Trovate gli appunti qui : [Notes](https://onizuka-mauve.vercel.app/CS-UNI/Architettura-Dei-Calcolatori/)

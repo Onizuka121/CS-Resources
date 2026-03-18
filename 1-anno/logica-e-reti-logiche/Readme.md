@@ -5,8 +5,7 @@
 Contenuto nel drive: 
 - appunti del prof ( non tutti )  
 - esercizitazioni ( non tutti ) 
-- esami anni precedenti ( 23-24 , 24-25 ) ( per altre tracce di esame vedi [Materiale Drive Condiviso CS](https://drive.google.com/drive/folders/1BCqvlCsiSbSHaDYJCueCZX9r2TpthbTn?usp=drive_link) )  [Lezioni , esercizi , esami di Logica e Reti Logiche 2023-2024](https://www.mat.uniroma2.it/~pasquale/dida/aa2324/lrl/)
- 
+- esami anni precedenti ( 23-24 , 24-25 ) ( per altre tracce di esame vedi [Materiale Drive Condiviso CS](https://drive.google.com/drive/folders/1BCqvlCsiSbSHaDYJCueCZX9r2TpthbTn?usp=drive_link) )  
 
 [Vari appunti](https://onizuka-mauve.vercel.app/CS-UNI/Logica-RetiLogiche/)
 

@@ -11,7 +11,7 @@ Contenuto nel drive:
 [Vari appunti](https://onizuka-mauve.vercel.app/CS-UNI/Logica-RetiLogiche/)
 
 Link utili : 
-- [Logica 23-24](https://www.mat.uniroma2.it/~pasquale/dida/aa2324/lrl/)
+- [Logica 24-25](https://www.mat.uniroma2.it/~pasquale/dida/aa2425/lrl/)
 - [Logica 20-21](https://www.mat.uniroma2.it/~pasquale/dida/aa2425/lrl/lrl2021/lrl2021.html) ( qui trovate anche video delle lezioni )
 - [IEEE 754 Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
 
